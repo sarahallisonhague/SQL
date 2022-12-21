@@ -126,7 +126,7 @@ END AS "top_movies_by_decade"
 FROM topmovies
 GROUP BY top_movies_by_decade;
 
--- which studio had the most movies in the top 100?
+-- how many movies did each studio have in the top 100?
 SELECT studio, 
 COUNT(studio) AS "number_of_movies"
 FROM topmovies
